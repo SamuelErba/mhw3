@@ -1,0 +1,82 @@
+/*css per definire lo style della prima api*/
+#meal-view div{
+    width: 100%;
+    border: solid 1px #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:  10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.meal img {
+    width: 400px;
+    height: 400px;
+}
+#meal-view span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#meal-view p{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*css per definire lo style della seconda api*/
+#song-view {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around;*/
+
+}
+#song-view div{
+    width: 40%;
+    border: solid 1px #dcdcdc;
+    display: flex;
+    justify-content: center;
+    margin-top:  10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;    
+    flex-wrap: wrap;
+}
+.song img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    align-items: center;
+    border: 2px;;
+} 
+
+/*css footer*/
+#final{
+    margin-top: 10px;
+    font-family: 'Caveat',cursive;
+    background-image: url('./images/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+  }
+  #ref{
+    display: flex;
+    flex-direction:column;
+  }
+  #ref a{
+    margin-top: 20px;
+    font-size: 35px;
+  }
+  #social{
+    display: inline;
+  }
+  #social a{
+    margin-bottom: 30px;
+    font-size: 25px ;
+  }
+  #social img{
+    margin-top: -35px;
+  }
+  #final a{
+    display: flex;
+  }
